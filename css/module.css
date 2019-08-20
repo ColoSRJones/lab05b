@@ -1,115 +1,115 @@
 /* MOBILE COLORS */
 
 header {
-  background-color: #ff9696;
+  background-color: #135790;
 }
 
 main #sidebar {
-  background-color: #96f9ff;
+  background-color: #123456;
 }
 
 .featured {
-  background-color: #96a0ff;
+  background-color: #987654;
 }
 
 .featured1 {
-  background-color: #dc96ff;
+  background-color: #363583;
 }
 
 main article:nth-child(1) {
-  background-color: #96ffaf;
+  background-color: #086421;
 }
 
 main article:nth-child(2) {
-  background-color: #eeff96;
+  background-color: #091256;
 }
 
 main article:nth-child(3) {
-  background-color: #ffda96;
+  background-color: #895421;
 }
 
 main article:nth-child(4) {
-  background-color: #62aebc;
+  background-color: #136790;
 }
 
 footer {
-  background-color: #cb51b5;
+  background-color: #147931;
 }
 
 /* TABLET */
 
 @media (min-width: 768px) and (max-width: 959px) {
   header {
-    background-color: #cb51b5;
+    background-color: #086431;
   }
 
   main #sidebar {
-    background-color: #96f9ff;
+    background-color: #965421;
   }
 
   main .featured:nth-child(3) {
-    background-color: #ffda96;
+    background-color: #232345;
   }
 
   main .featured:nth-child(2) {
-    background-color: #eeff96;
+    background-color: #980045;
   }
 
   main article:nth-child(1) {
-    background-color: #96ffaf;
+    background-color: #125676;
   }
 
   main article:nth-child(2) {
-    background-color: #dc96ff;
+    background-color: #123456;
   }
 
   main article:nth-child(3) {
-    background-color: #62aebc;
+    background-color: #62aeb7;
   }
 
   main article:nth-child(4) {
-    background-color: #96a0ff;
+    background-color: #786543;
   }
 
   footer {
-    background-color: #ff9696;
+    background-color: #129045;
   }
 }
 
 @media (min-width: 960px) {
   header {
-    background-color: #dc96ff;
+    background-color: #dc67ff;
   }
 
   main #sidebar {
-    background-color: #ff9696;
+    background-color: #ff5796;
   }
 
   main .featured:nth-child(3) {
-    background-color: #96a0ff;
+    background-color: #9657ff;
   }
 
   main .featured:nth-child(2) {
-    background-color: #62aebc;
+    background-color: #6205bc;
   }
 
   main article:nth-child(1) {
-    background-color: #0b6192;
+    background-color: #0c6182;
   }
 
   main article:nth-child(2) {
-    background-color: #cb51b5;
+    background-color: #cb3435;
   }
 
   main article:nth-child(3) {
-    background-color: #eeff96;
+    background-color: #985421;
   }
 
   main article:nth-child(4) {
-    background-color: #ffda96;
+    background-color: #ff1234;
   }
 
   footer {
-    background-color: #96f9ff;
+    background-color: #967321;
   }
 }
