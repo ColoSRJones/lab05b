@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head> 
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/desktop.css" />
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" /> -->
-	<link rel="stylesheet" type="text/css" href="css/flex.css" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/module.css" />
+    <link rel="stylesheet" href="styles/state.css" />
   </head>
   <body>
-    <header id="header">
-      <p>a</p>
-    </header>
-    <aside id="aside">
-      <p>b</p>
-    </aside>
-    <section id="section">
-      <p>c</p>
-    </section>
-    <section id="section2">
-      <p>d</p>
-    </section>
-    <div id="box">
-      <section id="box1">
-        <p>e</p>
-      </section>
-      <section id="box2">
-        <p>f</p>
-      </section>
-      <section id="box3">
-        <p>g</p>
-      </section>
-      <section id="section3">
-        <p>h</p>
-      </section>
+    <div class="content-wrapper">
+      <header>
+        <p>a</p>
+      </header>
+      <main>
+        <section id="sidebar">
+          <p>b</p>
+        </section>
+        <div class="featured-wrapper">
+          <section class="featured">
+            <p>c</p>
+          </section>
+          <section class="featured1">
+            <p>d</p>
+          </section>
+        </div>
+        <section class="article-wrapper">
+          <article><p>e</p></article>
+          <article><p>f</p></article>
+          <article><p>g</p></article>
+          <article><p>h</p></article>
+        </section>
+      </main>
+      <footer>
+        <p>i</p>
+      </footer>
     </div>
-    <footer id="footer">
-      <p>i</p>
-    </footer>
   </body>
 </html>
